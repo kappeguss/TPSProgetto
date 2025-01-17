@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mazzoleni.21198\\Desktop\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj": {}
+    "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mazzoleni.21198\\Desktop\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj": {
+    "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazzoleni.21198\\Desktop\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj",
         "projectName": "QuizSceltaMultipla_Mazzoleni",
-        "projectPath": "C:\\Users\\mazzoleni.21198\\Desktop\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj",
-        "packagesPath": "C:\\Users\\mazzoleni.21198\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazzoleni.21198\\Desktop\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mazzoleni.21198\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

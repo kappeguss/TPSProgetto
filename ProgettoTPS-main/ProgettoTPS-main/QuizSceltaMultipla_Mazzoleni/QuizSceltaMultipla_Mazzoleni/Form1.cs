@@ -2,14 +2,15 @@ namespace QuizSceltaMultipla_Mazzoleni
 {
     public partial class Form1 : Form
     {
-        private int indiceDomandaCorrente = 0;
+        private int indiceDomanda = 0;
         private int punteggioGiocatore1 = 0;
         private int punteggioGiocatore2 = 0;
-        private bool turnoGiocatore1 = true;
+        private bool turnoGiocatore = true;
         private List<Domanda> domande;
         private int timer;
         private const int limiteTempoDomanda = 30;
         private System.Windows.Forms.Timer countdownTimer;  // Specifica esplicitamente il Timer di Windows Forms
+        private int indiceRispostaCorrettaAttuale; // Traccia quale bottone contiene la risposta corretta
 
         public Form1()
         {
@@ -26,17 +27,22 @@ namespace QuizSceltaMultipla_Mazzoleni
         {
             domande = new List<Domanda>
             {
-                new Domanda("Qual è la capitale della Francia?", new[] {"Parigi", "Londra", "Roma", "Berlino"}, 0),
-                new Domanda("Quanto fa 2 + 2?", new[] {"3", "4", "5", "6"}, 1),
-                new Domanda("Qual è il colore del cielo?", new[] {"Rosso", "Verde", "Blu", "Giallo"}, 2),
-                new Domanda("Qual è l'unica squadra italiana", new[] {"Burgio", "Nighiri", "Pompini", "Roma"}, 3)
+                new Domanda("Qual è la capitale del Canada?", new[] {"Otranto", "Londra", "Ottawa", "Baku"}, 2),
+                new Domanda("Qual è l'algoritmo che viene impiegato dai sistemi operativi per assegnare la risorsa tempo di esecuzione CPU ai processi?", new[] { "Quicksort", "Dijkstra", "Bubble Sort", "Round Robin"}, 3),
+                new Domanda("Qual è il componente del pc dotato di memoria volatile ?", new[] {"SSD", "RAM", "CPU", "Hard Disk"}, 1),
+                new Domanda("Quali sono le cellule che vanno ad intervenire per ULTIME e ad arrestare la perdita di sangue?", new[] {"Globuli Rossi", "Globuli Bianchi", "Piastrine", "Neuroni"}, 2),
+                new Domanda("Chi ha scritto la 'Divina Commedia'?", new[] {"Dante Alighieri", "Shakespeare", "Petrarca", "Boccaccio"}, 0),
+                new Domanda("Qual è il metallo più leggero?", new[] {"Alluminio", "Litio", "Ferro", "Argento"}, 1),
+                new Domanda("Quando è stato incoronato Carlo Magno?", new[] {"800 a.c.", "25 dicembre 900 d.c.", "814 d.c.", "800 d.c."}, 3),
+                new Domanda("Qual'è il Pallone d'oro 2007?", new[] {"Messi", "Emilio Butragueno", "Kaka", "R9"}, 2),
+                new Domanda("Qual'è il primo linguaggio informatico creato nella storia?", new[] {"Short code", "Assembly", "C", "Phyton"}, 0),
             };
         }
 
         private void IniziaQuiz()
         {
             // Mostra la prima domanda
-            MostraDomanda(domande[indiceDomandaCorrente]);
+            MostraDomanda(domande[indiceDomanda]);
             AvviaTimer();
         }
 
@@ -67,33 +73,38 @@ namespace QuizSceltaMultipla_Mazzoleni
 
         private void MostraDomanda(Domanda domanda)
         {
-            // Mostra la domanda e le opzioni sui bottoni
+            // Mostra la domanda
             lblDomanda.Text = domanda.Testo;
+
+            // Assegna le opzioni ai bottoni in ordine
             btnOpzione1.Text = domanda.Opzioni[0];
             btnOpzione2.Text = domanda.Opzioni[1];
             btnOpzione3.Text = domanda.Opzioni[2];
             btnOpzione4.Text = domanda.Opzioni[3];
+
+            // Salva l'indice della risposta corretta
+            indiceRispostaCorrettaAttuale = domanda.IndiceRispostaCorretta;
         }
 
         private void PassaTurno()
         {
             // Se il tempo è scaduto o la risposta è errata, passa al prossimo giocatore
-            if (turnoGiocatore1)
+            if (turnoGiocatore)
             {
-                turnoGiocatore1 = false;
+                turnoGiocatore = false;
                 MessageBox.Show("Passa al Giocatore 2.");
             }
             else
             {
-                turnoGiocatore1 = true;
+                turnoGiocatore = true;
                 MessageBox.Show("Passa al Giocatore 1.");
             }
 
             // Carica la domanda successiva o mostra il punteggio finale
-            if (indiceDomandaCorrente < domande.Count - 1)
+            if (indiceDomanda < domande.Count - 1)
             {
-                indiceDomandaCorrente++;
-                MostraDomanda(domande[indiceDomandaCorrente]);
+                indiceDomanda++;
+                MostraDomanda(domande[indiceDomanda]);
                 AvviaTimer();
             }
             else
@@ -131,10 +142,10 @@ namespace QuizSceltaMultipla_Mazzoleni
         private void ControllaRisposta(int scelta)
         {
             // Verifica se la risposta è corretta
-            if (scelta == domande[indiceDomandaCorrente].IndiceRispostaCorretta)
+            if (scelta == indiceRispostaCorrettaAttuale)
             {
                 // Risposta corretta
-                if (turnoGiocatore1)
+                if (turnoGiocatore)
                 {
                     punteggioGiocatore1++;
                 }

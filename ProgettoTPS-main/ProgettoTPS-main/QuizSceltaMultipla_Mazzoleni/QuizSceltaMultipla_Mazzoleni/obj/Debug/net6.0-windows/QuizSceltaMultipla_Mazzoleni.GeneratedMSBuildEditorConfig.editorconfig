@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuizSceltaMultipla_Mazzoleni
-build_property.ProjectDir = C:\Users\mazzoleni.21198\Desktop\ProgettoTPS-main\ProgettoTPS-main\QuizSceltaMultipla_Mazzoleni\QuizSceltaMultipla_Mazzoleni\
+build_property.ProjectDir = C:\Users\user\Desktop\TPSProgetto\ProgettoTPS-main\ProgettoTPS-main\QuizSceltaMultipla_Mazzoleni\QuizSceltaMultipla_Mazzoleni\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
