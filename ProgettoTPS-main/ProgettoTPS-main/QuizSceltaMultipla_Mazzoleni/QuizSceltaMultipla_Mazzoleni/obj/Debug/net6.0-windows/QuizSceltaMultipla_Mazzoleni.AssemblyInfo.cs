@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizSceltaMultipla_Mazzoleni")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54d373fb8b20a02d6e62693de042203f44b49f58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84568002ebe5bfc75404cfa5ebe1e0f13f30346b")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizSceltaMultipla_Mazzoleni")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizSceltaMultipla_Mazzoleni")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

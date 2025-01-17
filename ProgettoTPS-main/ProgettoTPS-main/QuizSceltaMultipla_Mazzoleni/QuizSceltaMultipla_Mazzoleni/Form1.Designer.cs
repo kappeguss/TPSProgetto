@@ -39,15 +39,16 @@
             // lblDomanda
             // 
             lblDomanda.AutoSize = true;
-            lblDomanda.Location = new Point(363, 152);
+            lblDomanda.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDomanda.Location = new Point(12, 9);
             lblDomanda.Name = "lblDomanda";
-            lblDomanda.Size = new Size(72, 15);
+            lblDomanda.Size = new Size(146, 32);
             lblDomanda.TabIndex = 0;
             lblDomanda.Text = "lblDomanda";
             // 
             // btnOpzione1
             // 
-            btnOpzione1.Location = new Point(287, 204);
+            btnOpzione1.Location = new Point(12, 136);
             btnOpzione1.Name = "btnOpzione1";
             btnOpzione1.Size = new Size(87, 43);
             btnOpzione1.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // btnOpzione2
             // 
-            btnOpzione2.Location = new Point(421, 204);
+            btnOpzione2.Location = new Point(187, 136);
             btnOpzione2.Name = "btnOpzione2";
             btnOpzione2.Size = new Size(87, 43);
             btnOpzione2.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // btnOpzione3
             // 
-            btnOpzione3.Location = new Point(287, 271);
+            btnOpzione3.Location = new Point(12, 245);
             btnOpzione3.Name = "btnOpzione3";
             btnOpzione3.Size = new Size(87, 43);
             btnOpzione3.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // btnOpzione4
             // 
-            btnOpzione4.Location = new Point(421, 271);
+            btnOpzione4.Location = new Point(187, 245);
             btnOpzione4.Name = "btnOpzione4";
             btnOpzione4.Size = new Size(87, 43);
             btnOpzione4.TabIndex = 4;
@@ -88,9 +89,10 @@
             // lblTimer
             // 
             lblTimer.AutoSize = true;
-            lblTimer.Location = new Point(374, 371);
+            lblTimer.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTimer.Location = new Point(435, 194);
             lblTimer.Name = "lblTimer";
-            lblTimer.Size = new Size(40, 15);
+            lblTimer.Size = new Size(68, 25);
             lblTimer.TabIndex = 5;
             lblTimer.Text = "TIMER";
             // 

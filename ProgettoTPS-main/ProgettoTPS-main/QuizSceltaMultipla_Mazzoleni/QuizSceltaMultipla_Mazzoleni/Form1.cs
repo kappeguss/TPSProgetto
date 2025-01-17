@@ -28,14 +28,15 @@ namespace QuizSceltaMultipla_Mazzoleni
             domande = new List<Domanda>
             {
                 new Domanda("Qual è la capitale del Canada?", new[] {"Otranto", "Londra", "Ottawa", "Baku"}, 2),
-                new Domanda("Qual è l'algoritmo che viene impiegato dai sistemi operativi per assegnare la risorsa tempo di esecuzione CPU ai processi?", new[] { "Quicksort", "Dijkstra", "Bubble Sort", "Round Robin"}, 3),
+                new Domanda("Qual è l'algoritmo che viene impiegato dai sistemi operativi per assegnare \nla risorsa tempo di esecuzione CPU ai processi?", new[] { "Quicksort", "Dijkstra", "Bubble Sort", "Round Robin"}, 3),
                 new Domanda("Qual è il componente del pc dotato di memoria volatile ?", new[] {"SSD", "RAM", "CPU", "Hard Disk"}, 1),
-                new Domanda("Quali sono le cellule che vanno ad intervenire per ULTIME e ad arrestare la perdita di sangue?", new[] {"Globuli Rossi", "Globuli Bianchi", "Piastrine", "Neuroni"}, 2),
+                new Domanda("Quali sono le cellule che vanno ad intervenire per ULTIME \ne ad arrestare la perdita di sangue?", new[] {"Globuli Rossi", "Globuli Bianchi", "Piastrine", "Neuroni"}, 2),
                 new Domanda("Chi ha scritto la 'Divina Commedia'?", new[] {"Dante Alighieri", "Shakespeare", "Petrarca", "Boccaccio"}, 0),
                 new Domanda("Qual è il metallo più leggero?", new[] {"Alluminio", "Litio", "Ferro", "Argento"}, 1),
                 new Domanda("Quando è stato incoronato Carlo Magno?", new[] {"800 a.c.", "25 dicembre 900 d.c.", "814 d.c.", "800 d.c."}, 3),
                 new Domanda("Qual'è il Pallone d'oro 2007?", new[] {"Messi", "Emilio Butragueno", "Kaka", "R9"}, 2),
-                new Domanda("Qual'è il primo linguaggio informatico creato nella storia?", new[] {"Short code", "Assembly", "C", "Phyton"}, 0),
+                new Domanda("Qual'è il primo linguaggio informatico \ncreato nella storia?", new[] {"Short code", "Assembly", "C", "Phyton"}, 0),
+                new Domanda("Dato l'anagramma della parola 'PALEOCAPA', \ncosa utilizzeresti per trovare tutte le combinazioni?", new[] {"Permutazioni", "Disposizioni REP", "Combinazioni","Permutazioni REP"}, 3)
             };
         }
 

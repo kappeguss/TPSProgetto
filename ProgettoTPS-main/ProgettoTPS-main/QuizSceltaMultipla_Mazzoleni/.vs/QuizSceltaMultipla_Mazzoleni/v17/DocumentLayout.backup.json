@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{4A6EF0A6-1597-4B47-845F-017E2FE6F41F}|QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj|solutionrelative:quizsceltamultipla_mazzoleni\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A6EF0A6-1597-4B47-845F-017E2FE6F41F}|QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj|c:\\users\\user\\desktop\\tpsprogetto\\progettotps-main\\progettotps-main\\quizsceltamultipla_mazzoleni\\quizsceltamultipla_mazzoleni\\domanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6EF0A6-1597-4B47-845F-017E2FE6F41F}|QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj|solutionrelative:quizsceltamultipla_mazzoleni\\domanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A6EF0A6-1597-4B47-845F-017E2FE6F41F}|QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj|C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\quizsceltamultipla_mazzoleni\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A6EF0A6-1597-4B47-845F-017E2FE6F41F}|QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni.csproj|solutionrelative:quizsceltamultipla_mazzoleni\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,25 +34,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Domanda.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Domanda.cs",
+              "RelativeDocumentMoniker": "QuizSceltaMultipla_Mazzoleni\\Domanda.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Domanda.cs",
+              "RelativeToolTip": "QuizSceltaMultipla_Mazzoleni\\Domanda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T22:07:10.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs",
               "RelativeDocumentMoniker": "QuizSceltaMultipla_Mazzoleni\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs*",
-              "RelativeToolTip": "QuizSceltaMultipla_Mazzoleni\\Form1.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCQAAAByAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs",
+              "RelativeToolTip": "QuizSceltaMultipla_Mazzoleni\\Form1.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwCoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T15:22:07.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs",
               "RelativeDocumentMoniker": "QuizSceltaMultipla_Mazzoleni\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs [Progettazione]*",
-              "RelativeToolTip": "QuizSceltaMultipla_Mazzoleni\\Form1.cs [Progettazione]*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TPSProgetto\\ProgettoTPS-main\\ProgettoTPS-main\\QuizSceltaMultipla_Mazzoleni\\QuizSceltaMultipla_Mazzoleni\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "QuizSceltaMultipla_Mazzoleni\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T15:22:09.806Z",
               "EditorCaption": " [Progettazione]"
